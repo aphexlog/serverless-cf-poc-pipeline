@@ -1,0 +1,42 @@
+[
+  {
+    "ParameterKey": "PipelineName",
+    "ParameterValue": "serverless-pipeline"
+  },
+  {
+    "ParameterKey": "GHOwner",
+    "ParameterValue": "aphexlog"
+  },
+  {
+    "ParameterKey": "GHRepo",
+    "ParameterValue": "https://github.com/aphexlog/serverless-test.git"
+  },
+  {
+    "ParameterKey": "GHBranch",
+    "ParameterValue": "feature/cf-codepipeline-native"
+  },
+  {
+    "ParameterKey": "OauthToken",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "TemplateFileName",
+    "ParameterValue": "FlinkECSCluster.yml"
+  },
+  {
+    "ParameterKey": "TestStackName",
+    "ParameterValue": "Test-Serverless-Stack"
+  },
+  {
+    "ParameterKey": "ProdStackName",
+    "ParameterValue": "Prod-Serverless-Stack"
+  },
+  {
+    "ParameterKey": "ChangeSetName",
+    "ParameterValue": "UpdatePreview-Serverless-Stack"
+  },
+  {
+    "ParameterKey": "Email",
+    "ParameterValue": "awest@fluentstream.com"
+  }
+]
